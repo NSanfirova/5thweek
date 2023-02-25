@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 1440px;
+    font-family: roboto;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+form {
+    position: relative;
+    width: 275px;
+}
+
+.d1 input {
+    width: 100%;
+    height: 48px;
+    padding-left: 10px;
+    border: 2px solid #151616;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+}
+
+.d1 button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #151616;
+    background: #E6E1D6;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.d1 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.main,
+.nazvanie,
+.preposition,
+.footer,
+.somemore1,
+.somemore2,
+.somemore3,
+.somemore4,
+.prep {
+    display: flex;
+}
+
+.header {
+    color: rgba(184, 137, 135, 1);
+    font-size: 20px;
+}
+
+.nazvanie {
+    background-color: rgba(230, 225, 214, 1);
+    flex-grow: 1;
+    height: 92px;
+}
+
+.footer {
+    background-color: rgba(230, 225, 214, 1);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 559px;
+}
+
+
+.somemore1,
+.somemore2,
+.somemore3,
+.somemore4 {
+
+    flex-grow: 1;
+
+}
+
+.somemore1 {
+    margin: 28px 0px 33px 33px;
+}
+
+.somemore2 {
+    margin: 20px 0px 33px 380px;
+}
+
+.somemore3 {
+    margin: 20px 0px 0px 90px;
+}
+
+.somemore4 {
+    margin: 20px 0px 0px 90px;
+}
+
+.prep {
+
+    padding: 10px;
+    margin: 680px 1000px 30px 30px;
+    height: 42px;
+    width: 250px;
+    background-color: rgba(230, 225, 214, 1);
+
+
+}
+
+.mainfoto {
+    background: url(/assets/Rectangle.png) no-repeat;
+    height: 751px;
+    width: 1440px;
+}
+.footer_f,
+.footer_f1 {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer_f{
+    font-size: 42px;
+   width: 1056px;
+   height: 59px;
+   line-height: 58.8px;
+}
